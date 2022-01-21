@@ -1,0 +1,6 @@
+3 steps
+1 => choose your container, in our example the container is class="card" 
+     and inside of it there is a 4 elements
+2 => in your container say that your display is grid and set your grid-template
+3 => for every element you have inside your grid set its postion using grid-row 
+     and grid-column
