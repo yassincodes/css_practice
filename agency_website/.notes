@@ -1,0 +1,14 @@
+the projects devided into 
+header "header header-home"
+    header-content
+        logo-link
+        nav
+main
+    hero section
+    info section
+        div 1 "col" 
+        div 2 "col"
+        div 3 "col"
+footer
+    footer-main
+    social-list
