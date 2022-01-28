@@ -1,10 +1,14 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: #111D4A;
     font-family: 'Blinker', sans-serif;}
 
-
+.main {
+    display: flex;
+    flex-direction: column;
+    background: #111D4A;
+    margin:4em;
+}
 p, h1 {
     color: white;
 }
@@ -20,11 +24,6 @@ img {
     object-fit: cover;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
 .main-image {
     width:100%;
 }
@@ -32,17 +31,25 @@ img {
     display:flex;
     flex-direction:column;
     justify-content: space-between;
+    margin-left:1em;
 }
 
 .info-bottom {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
-button {
-    background: #05CBE9 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin:5px;
+.btn {
+    font-size: 1.25rem;
+    background: #05cbe9;
+    color: #111d4a;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.6em 1.6em;
+    letter-spacing: 1px;
 }
 
 div p {
@@ -53,7 +60,7 @@ div p {
 }
 @media only screen and (min-width: 600px) {
     img {
-        height: 100vh;
+        height: 100%;
     }
     .main-image {
         width:50%;
