@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #111D4A
+}
+
+
+p, h1 {
+    color: white;
+}
+img {
+    width:100vw;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.info-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 600px) {
+    img {
+        width:auto;
+        height: 100vh;
+    }
+    .main {
+        flex-direction: row;
+    }
+    .info {
+        flex-direction: column;
+    }
+}
